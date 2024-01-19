@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flask-svelte"
+version = "0.1.0"
+description = "A python package to create flask project with svelte frontend."
+license = "MIT"
+authors = ["Priyanshu Shubham <priyanshushubham27@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/priyanshu-shubham/flask-svelte"
+
+[tool.poetry.scripts]
+flask-svelte = "flask_svelte.main:cli"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^3.0.1"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
