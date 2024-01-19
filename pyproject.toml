@@ -1,11 +1,16 @@
 [tool.poetry]
 name = "flask-svelte"
-version = "0.1.0"
+version = "1.0.0"
 description = "A python package to create flask project with svelte frontend."
 license = "MIT"
 authors = ["Priyanshu Shubham <priyanshushubham27@gmail.com>"]
 readme = "README.md"
+homepage = "https://github.com/priyanshu-shubham/flask-svelte"
 repository = "https://github.com/priyanshu-shubham/flask-svelte"
+keywords = ["flask", "svelte", "sveltekit", "flask-svelte", "flask-svelte-cli", "flask-svelte-generator", "flask-svelte-template",]
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.scripts]
 flask-svelte = "flask_svelte.main:cli"

@@ -42,6 +42,7 @@ Note: This package is still in development. The API is subject to change.
   flask-svelte add-page <template_name>
   ```
   Generates Svelte files in `svelte/<template_name>`. Edit them and see the changes in the browser.
+  Note: The `npm run dev` command must be restarted for new templates to be recognized.
 
 ### Important Usage Notes
 1. **Production Build**: Use `npm run build` for deployment readiness. Post-build, the `svelte` directory is optional.
