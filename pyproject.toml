@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flask-svelte"
-version = "1.0.0"
+version = "1.0.1"
 description = "A python package to create flask project with svelte frontend."
 license = "MIT"
 authors = ["Priyanshu Shubham <priyanshushubham27@gmail.com>"]

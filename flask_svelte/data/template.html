@@ -13,9 +13,8 @@
     <script>
         function getJinjaData() {
             const jinja_data = {{ data | tojson }}
-            const data = jinja_data.data;
             document.data = {
-                ...data,
+                ...jinja_data,
             }
         }
         getJinjaData();

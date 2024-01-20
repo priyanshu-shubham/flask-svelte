@@ -42,6 +42,13 @@ def create(ctx, name="project"):
 
     # Creating the folder structure
     root_path = Path(os.getcwd()) / name
+    if root_path.exists():
+        print(
+            colorama.Fore.RED
+            + f"Folder {name} already exists. Please choose a different name. Exiting..."
+        )
+        print(colorama.Style.RESET_ALL)
+        return
     flask_app_path = root_path / "app"
     templates_path = flask_app_path / "templates"
     svelte_path = flask_app_path / "static" / "svelte"

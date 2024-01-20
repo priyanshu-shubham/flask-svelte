@@ -1,4 +1,4 @@
-# Enhanced Flask-Svelte Documentation
+# Flask-Svelte Documentation
 
 Welcome to Flask-Svelte, a python package that integrates [Svelte](https://svelte.dev/) with [Flask](https://flask.palletsprojects.com/en/1.1.x/). This integration brings together the best of both worlds: Svelte's reactive frontend capabilities and Flask's robust backend, providing a seamless experience for web application development.
 
